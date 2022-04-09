@@ -76,8 +76,9 @@ function logout() {
     localStorage.removeItem("avatar")
     if (stompClient !== null) {
         stompClient.disconnect();
-        $("#chat-room").addClass('d-none')
-        $("#login-page").removeClass('d-none')
+        $("#chat-room").addClass('d-none');
+        $("#login-page").removeClass('d-none');
+        window.location.reload();
     }
 }
 
