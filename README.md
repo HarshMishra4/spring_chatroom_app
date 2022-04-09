@@ -9,7 +9,7 @@
 
 ## Demo screens
 
-<img src="desktop-sct.png" width="750">   <img src="mobile-sct.jpg" height="440">
+<img src="screer_sct.png">
 
 ## Description
 
